@@ -13,6 +13,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+p {
+  margin: 0;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -65,4 +69,10 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }

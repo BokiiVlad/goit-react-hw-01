@@ -1,0 +1,25 @@
+.cell {
+  font-weight: 500;
+  border: 1px solid #060713;
+  width: 200px;
+}
+.main {
+  border-collapse: collapse;
+  margin: auto;
+  margin-top: 80px;
+}
+.cellb {
+  font-weight: 500;
+  color: white;
+  background-color: #3c3c3f;
+  border: 1px solid #060713;
+  width: 200px;
+}
+tbody tr:nth-child(even) {
+  background-color: #d3d3d3; /* Світло-сірий фон */
+}
+.typeString {
+  text-transform: capitalize;
+  padding-left: 120px;
+  text-align: left;
+}
